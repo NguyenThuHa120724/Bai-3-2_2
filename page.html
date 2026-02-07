@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Fashion Shop</title>
+    <style>
+        .deleted {
+            text-decoration: line-through;
+            color: gray;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Quản lý Shop Thời Trang</h2>
+
+    <input id="txt_id" placeholder="ID (để trống khi tạo mới)">
+    <input id="txt_name" placeholder="Tên sản phẩm">
+    <input id="txt_price" placeholder="Giá">
+    <button onclick="saveProduct()">Thêm / Cập nhật</button>
+
+    <hr>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Tên</th>
+                <th>Giá</th>
+                <th>Hành động</th>
+            </tr>
+        </thead>
+        <tbody id="table_body"></tbody>
+    </table>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,34 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Áo thun nam",
+      "price": 250000,
+      "isDeleted": true
+    },
+    {
+      "id": "2",
+      "name": "Váy nữ",
+      "price": 500000,
+      "isDeleted": true
+    },
+    {
+      "id": "3",
+      "name": "Áo Khoác",
+      "price": 20000,
+      "isDeleted": true
+    },
+    {
+      "id": "4",
+      "name": "áo",
+      "price": 100000,
+      "isDeleted": true
+    },
+    {
+      "id": 5,
+      "name": "Quần",
+      "price": 100000,
+      "isDeleted": false
+    }
+  ]
+}
